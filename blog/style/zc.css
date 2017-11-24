@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+body{
+	background-color:#34352C;
+	font-family:KaiTi,"华文细黑","Microsoft Yahei",sans-serif;
+}
+header{
+	font-weight:bold;
+	font-size:30px;
+	text-align:center;
+	margin-top:5%;
+	position:relative;
+	top:20px;
+	left:-20px;
+	color:#C9CABB;
+}
+#atc{
+	width:500px;
+	height:250px;
+	background-color:#C9CABB;
+	border-radius:20px;
+	margin-left:30%;
+	margin-top:20px;
+	padding-top:30px;
+	display:inline-block;
+	position:relative;
+	top:50px;
+}
+form{
+	margin-top:5%;
+	margin-left:20%;
+}
+.star-six {
+    width: 0;
+    height: 0;
+	display:inline-block;
+    border-left: 50px solid transparent;
+    border-right:50px solid transparent;
+    border-bottom: 100px solid #C9CABB;
+    position: relative;
+	animation:xz 15s infinite;
+	animation-timing-function:linear;
+	transform-origin:50px 66.67px;
+}
+@keyframes xz{
+	from{
+	transform:rotate(0deg);
+}
+	to{	
+    transform:rotate(720deg)}
+}
+.star-six:after {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid #C9CABB;
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -50px;
+}
+#div1{
+	display:inline-block;
+	position:absolute;
+	top:200px;
+	left:200px;
+}
+#div2{
+	display:inline-block;
+	position:absolute;
+	top:200px;
+	right:200px;
+}
+#tijiao{
+	background-color:#34352C;
+	width:100px;
+	color:#C9CABB;
+	font-family:KaiTi;
+	font-size:17px;
+}

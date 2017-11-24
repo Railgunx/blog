@@ -1,0 +1,116 @@
+@CHARSET "UTF-8";
+*{
+	overflow:hidden;
+}
+#div1{
+	position:absolute;
+	display:inline;
+	width:50px;
+	height:50px;
+	border-radius:25px;
+	background-image:url(../img/star.jpg);
+	background-size:cover;
+    animation:move 5s infinite;
+	animation-timing-function:linear;
+}
+@keyframes move{
+	from{left:0px;
+	transform:rotate(0deg);
+}
+	to{left:calc(100% - 50px);
+    transform:rotate(720deg)}
+}
+#div2{
+	position:absolute;
+	display:inline;
+	width:50px;
+	height:50px;
+	border-radius:25px;
+	background-image:url(../img/star.jpg);
+	background-size:cover;
+    animation:move2 5s infinite;
+	animation-timing-function:linear;
+	top:calc(100% - 50px)
+}
+@keyframes move2{
+	from{top:calc(100% - 50px)
+	transform:rotate(0deg);
+}
+	to{top:0px;
+    transform:rotate(720deg)}
+}
+#div3{
+	position:absolute;
+	display:inline;
+	width:50px;
+	height:50px;
+	border-radius:25px;
+	background-image:url(../img/star.jpg);
+	background-size:cover;
+    animation:move3 5s infinite;
+	animation-timing-function:linear;
+	left:calc(100% - 50px);
+}
+@keyframes move3{
+	from{top:0px;
+	transform:rotate(0deg);
+}
+	to{top:calc(100% - 50px);	
+    transform:rotate(720deg)}
+}
+#div4{
+	position:absolute;
+	display:inline;
+	width:50px;
+	height:50px;
+	border-radius:25px;
+	background-image:url(../img/star.jpg);
+	background-size:cover;
+    animation:move4 5s infinite;
+	animation-timing-function:linear;
+	left:calc(100% - 50px);
+	top:calc(100% - 50px)
+}
+@keyframes move4{
+	from{left:calc(100% - 50px)
+	transform:rotate(0deg);
+}
+	to{left:0px;	
+    transform:rotate(720deg)}
+}
+body{
+	background-color: #2E393E;
+	background-image:url(../img/log.jpg);
+	background-repeat: round;
+	margin:0px;
+}
+header{
+	font-weight:bold;
+	font-size:30px;
+	font-family:KaiTi,"华文细黑","Microsoft Yahei",sans-serif;
+	text-align:center;
+	margin-top: 5%;
+}
+#login{
+	font-family:KaiTi,"华文细黑","Microsoft Yahei",sans-serif;
+	font-weight:bold;
+	width:500px;
+	height:300px;
+	background-color:#BDD8D4;
+	border:10px solid transparent;
+	border-radius:10px;
+	padding:20px;
+	margin-top: 30px;
+    margin-left: 30%;
+	text-align:center;
+	background-image:url(../img/div.jpg);
+	background-repeat: round;
+	
+}
+#form1{
+	margin-top:30px;
+	margin-left:-50px;
+}
+.ch{
+	vertical-align:sub;
+}

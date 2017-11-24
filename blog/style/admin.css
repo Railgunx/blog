@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+
+body{
+	border:0;
+	padding:0;
+	margin:0;
+	background-image:url("../img/bp.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+}
+#top{
+	height:7%;
+	text-align:center;
+}
+#left{	
+	width:6%;
+	height:93%;
+	float:left;
+	
+}
+#right{
+	
+	width:94%;
+	height:93%;
+	float:right;
+	border:0px;
+}
+
+#inf{
+	float:right;
+	display:none;
+}
+#atc{
+	float:right;
+	display:none;
+}
+#type{
+	float:right;
+	display:none;
+}
+#user{
+	display:inline-block;
+	position:absolute;
+	top:25px;
+	right:200px;
+	font-weight:bold;;
+}
+#zx:hover{
+	cursor:pointer;
+}
+a{
+	text-decoration:none;
+}
+a:link{
+	color:black;
+}
+a:visited{
+	color: black;
+}
+a:hover{
+	color:#8080ff;
+}

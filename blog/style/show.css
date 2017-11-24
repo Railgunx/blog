@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+*{
+	border:0px;
+	margin:0px;
+	border-width:0px;
+}
+.del{
+	color:#0080ff;
+}
+.del:hover{
+	cursor:pointer;
+}
